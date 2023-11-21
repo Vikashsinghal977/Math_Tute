@@ -1,0 +1,75 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    /* border: 2px solid red; */
+    width: 1350px;
+    margin: 0px auto;
+}
+.header{
+    padding: 0px;
+    height: 100px;
+}
+.logo{
+    float: left;
+}
+.searchbox{
+    float: right;
+    background-color: blue;
+    border-radius: 15px;
+    width: 500px;
+    padding: 20px 20px 0 20px;
+    height: 50px;
+    margin: 10px 10px;
+}
+.logo h1 a{
+    text-decoration: none;
+    color: red;
+    font-size: 40px;
+}
+.text{
+    float: left;
+    width: 297px;
+    padding: 7px 11px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    border: 1px whitesmoke;
+    border-radius: 5px;
+}
+.btn{
+    float: right;
+    background-color: rgb(122, 78, 35);
+    padding: 0px 7px 0px;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+.menu{
+    height: 30px;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    /* color: white; */
+    padding: 10px 0px;
+}
+.menu a{
+    padding: 0px 80px;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
+    border-right: 2px solid white;
+    font-size: 20px;
+}
+.menu a:last-child{
+    border: none;
+}
+.menu a.log{
+    color: brown;
+}
+.menu a:hover{
+    font-size: 19px;
+    color: brown;
+    font-weight: bold;
+}
